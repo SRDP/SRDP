@@ -21,7 +21,7 @@ backend and distributed systems for enterprise environments.
 
 ---
 
-## 🟢 Signal
+## `➜` Signal
 
 ```txt
 focus       : backend systems · distributed platforms · security analytics
@@ -32,7 +32,7 @@ mindset     : secure design · clear boundaries · measurable performance
 
 ---
 
-## 🔐 Security + Backend DNA
+## `⛨` Security + Backend DNA
 
 ```txt
 [ architect ]  system design · service boundaries · technical trade-offs
@@ -43,15 +43,15 @@ mindset     : secure design · clear boundaries · measurable performance
 
 ---
 
-## 🧬 Core Stack
+## `</>` Core Stack
 
 <p align="center">
-  <img src="./assets/core-stack.svg" alt="Core technology stack" width="92%" />
+  <img src="./assets/core-stack.svg" alt="Go Python Ruby Rails SQL Linux APIs Security" width="92%" />
 </p>
 
 ---
 
-## 🚀 Public Builds
+## `▸` Public Builds
 
 | Repository | Signal |
 |---|---|
@@ -60,7 +60,7 @@ mindset     : secure design · clear boundaries · measurable performance
 
 ---
 
-## 🧠 Innovation Log
+## `◆` Innovation Log
 
 ```txt
 3x patent inventor
@@ -68,7 +68,7 @@ mindset     : secure design · clear boundaries · measurable performance
 areas:
   → post-quantum cryptographic asset validation
   → distributed ledger-based attestation
-  → local snapshot-based OS update testing
+  → local snapshot-based OS update package testing
 ```
 
 ---
