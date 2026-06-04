@@ -49,14 +49,6 @@ mindset     : secure design · clear boundaries · measurable performance
   <img src="./assets/core-stack.svg" alt="Go Python Ruby Rails SQL Linux APIs Security" width="92%" />
 </p>
 
----
-
-## `▸` Public Builds
-
-| Repository | Signal |
-|---|---|
-| [`gromext`](https://github.com/sreedeepkumar-mathu/gromext) | GORM extension for database-agnostic JSON operations |
-| [`bfnow-storage`](https://github.com/sreedeepkumar-mathu/bfnow-storage) | Go-based backend storage work |
 
 ---
 
