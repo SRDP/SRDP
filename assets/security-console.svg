@@ -1,0 +1,21 @@
+<svg width="1000" height="132" viewBox="0 0 1000 132" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security console animation">
+  <style>
+    .bg { fill: #010302; stroke: #1db954; stroke-width: 2; }
+    .shield { fill: none; stroke: #b7ffd0; stroke-width: 4; filter: drop-shadow(0 0 7px #39ff88); }
+    .scan { stroke: #45ff8a; stroke-width: 3; opacity: .65; animation: scan 2.6s linear infinite; }
+    .txt { font: 800 18px 'Courier New', monospace; fill: #45ff8a; }
+    .dim { opacity: .55; }
+    .flow { animation: flow 4s linear infinite; }
+    @keyframes scan { from { transform: translateY(-35px); } to { transform: translateY(68px); } }
+    @keyframes flow { 0% { transform: translateX(0); opacity: .2; } 50% { opacity: 1; } 100% { transform: translateX(80px); opacity: .2; } }
+  </style>
+  <rect class="bg" x="5" y="5" width="990" height="122" rx="18"/>
+  <g transform="translate(54,21)">
+    <path class="shield" d="M48 0 L88 16 V45 C88 70 68 86 48 96 C28 86 8 70 8 45 V16 Z"/>
+    <line class="scan" x1="12" y1="28" x2="84" y2="28"/>
+    <text class="txt" x="128" y="27">secure_by_design()</text>
+    <text class="txt dim flow" x="128" y="62">validate → authorize → trace → observe → optimize</text>
+    <text class="txt dim" x="128" y="94">clear contracts · small blast radius · measurable performance</text>
+    <text class="txt" x="748" y="62">STATUS: GREEN</text>
+  </g>
+</svg>

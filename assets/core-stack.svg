@@ -1,0 +1,23 @@
+<svg width="1000" height="150" viewBox="0 0 1000 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Core stack: Go Python Ruby Rails SQL Linux APIs Security">
+  <style>
+    .bg { fill: #010302; stroke: #1db954; stroke-width: 2; }
+    .chip { fill: #07130c; stroke: #39ff88; stroke-width: 1.7; }
+    .txt { font: 800 21px 'Courier New', monospace; fill: #b7ffd0; }
+    .label { font: 800 16px 'Courier New', monospace; fill: #45ff8a; opacity: .85; letter-spacing: 2px; }
+    .chip { animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .78; } 50% { opacity: 1; } }
+  </style>
+
+  <rect class="bg" x="5" y="5" width="990" height="140" rx="18"/>
+  <text class="label" x="500" y="34" text-anchor="middle">CORE STACK</text>
+
+  <rect class="chip" x="86" y="50" width="110" height="42" rx="12"/><text class="txt" x="141" y="78" text-anchor="middle">Go</text>
+  <rect class="chip" x="216" y="50" width="150" height="42" rx="12"/><text class="txt" x="291" y="78" text-anchor="middle">Python</text>
+  <rect class="chip" x="386" y="50" width="120" height="42" rx="12"/><text class="txt" x="446" y="78" text-anchor="middle">Ruby</text>
+  <rect class="chip" x="526" y="50" width="120" height="42" rx="12"/><text class="txt" x="586" y="78" text-anchor="middle">Rails</text>
+  <rect class="chip" x="666" y="50" width="110" height="42" rx="12"/><text class="txt" x="721" y="78" text-anchor="middle">SQL</text>
+  <rect class="chip" x="796" y="50" width="120" height="42" rx="12"/><text class="txt" x="856" y="78" text-anchor="middle">Linux</text>
+
+  <rect class="chip" x="315" y="102" width="135" height="34" rx="10"/><text class="txt" x="382" y="125" text-anchor="middle" font-size="18">APIs</text>
+  <rect class="chip" x="470" y="102" width="215" height="34" rx="10"/><text class="txt" x="578" y="125" text-anchor="middle" font-size="18">Security</text>
+</svg>

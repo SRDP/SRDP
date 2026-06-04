@@ -1,0 +1,58 @@
+<svg width="1200" height="285" viewBox="0 0 1200 285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sreedeep Kumar matrix terminal banner">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#16351f"/>
+      <stop offset="52%" stop-color="#06120a"/>
+      <stop offset="100%" stop-color="#010302"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .bg { fill: url(#bg); }
+      .grid { stroke: #104d2a; stroke-width: 1; opacity: .38; }
+      .rain { font: 700 17px 'Courier New', monospace; fill: #39ff88; opacity: .18; }
+      .title { font: 800 58px 'Courier New', monospace; fill: #b7ffd0; filter: url(#glow); letter-spacing: 2px; }
+      .sub { font: 700 20px 'Courier New', monospace; fill: #45e885; letter-spacing: 1px; }
+      .cmd { font: 700 17px 'Courier New', monospace; fill: #79ffad; }
+      .scan { fill: #39ff88; opacity: .07; animation: scan 4.5s linear infinite; }
+      .blink { animation: blink 1s steps(2,end) infinite; }
+      .d1 { animation: fall 4.8s linear infinite; }
+      .d2 { animation: fall 6.1s linear infinite; animation-delay: -2.5s; }
+      .d3 { animation: fall 5.2s linear infinite; animation-delay: -1.2s; }
+      .d4 { animation: fall 4.1s linear infinite; animation-delay: -3.2s; }
+      @keyframes fall { from { transform: translateY(-310px); } to { transform: translateY(310px); } }
+      @keyframes scan { from { transform: translateY(-60px); } to { transform: translateY(345px); } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="285" rx="24"/>
+  <g>
+    <path class="grid" d="M0 45 H1200 M0 90 H1200 M0 135 H1200 M0 180 H1200 M0 225 H1200 M0 270 H1200"/>
+    <path class="grid" d="M75 0 V285 M150 0 V285 M225 0 V285 M300 0 V285 M375 0 V285 M450 0 V285 M525 0 V285 M600 0 V285 M675 0 V285 M750 0 V285 M825 0 V285 M900 0 V285 M975 0 V285 M1050 0 V285 M1125 0 V285"/>
+  </g>
+
+  <g class="rain d1">
+    <text x="45" y="40">0101</text><text x="45" y="86">AUTH</text><text x="45" y="132">TLS</text><text x="45" y="178">HASH</text>
+    <text x="1030" y="62">SEC</text><text x="1030" y="108">API</text><text x="1030" y="154">TRACE</text><text x="1030" y="200">1010</text>
+  </g>
+  <g class="rain d2">
+    <text x="190" y="36">GO</text><text x="190" y="82">PYTHON</text><text x="190" y="128">SQL</text><text x="190" y="174">OPS</text>
+    <text x="875" y="42">CERT</text><text x="875" y="88">FIPS</text><text x="875" y="134">JSON</text><text x="875" y="180">CACHE</text>
+  </g>
+  <g class="rain d3">
+    <text x="330" y="25">ARCH</text><text x="330" y="71">DATA</text><text x="330" y="117">CODE</text><text x="330" y="163">SHIP</text>
+    <text x="1130" y="28">101</text><text x="1130" y="74">010</text><text x="1130" y="120">111</text><text x="1130" y="166">001</text>
+  </g>
+  <g class="rain d4">
+    <text x="700" y="30">DESIGN</text><text x="700" y="76">SCALE</text><text x="700" y="122">OBSERVE</text><text x="700" y="168">SECURE</text>
+  </g>
+
+  <rect class="scan" x="0" y="0" width="1200" height="44"/>
+
+  <text class="title" x="600" y="118" text-anchor="middle">SREEDEEP KUMAR</text>
+  <text class="sub" x="600" y="160" text-anchor="middle">LEAD SOFTWARE ARCHITECT · BACKEND SYSTEMS · SECURITY ANALYTICS</text>
+  <text class="cmd" x="600" y="210" text-anchor="middle">$ design --secure --scale --observe <tspan class="blink">█</tspan></text>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="1000" height="96" viewBox="0 0 1000 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated terminal typing">
+  <style>
+    .box { fill: #010302; stroke: #1db954; stroke-width: 2; }
+    .bar { fill: #06120a; }
+    .r { fill: #ff5f56; } .y { fill: #ffbd2e; } .g { fill: #27c93f; }
+    .prompt { font: 700 22px 'Courier New', monospace; fill: #b7ffd0; }
+    .line { font: 700 22px 'Courier New', monospace; fill: #45ff8a; opacity: 0; }
+    .l1 { animation: show 12s infinite; }
+    .l2 { animation: show 12s infinite; animation-delay: 3s; }
+    .l3 { animation: show 12s infinite; animation-delay: 6s; }
+    .l4 { animation: show 12s infinite; animation-delay: 9s; }
+    .cursor { animation: blink 1s steps(2,end) infinite; }
+    @keyframes show { 0%,22% { opacity: 1; } 25%,100% { opacity: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect class="box" x="5" y="5" width="990" height="86" rx="14"/>
+  <rect class="bar" x="5" y="5" width="990" height="26" rx="14"/>
+  <circle class="r" cx="30" cy="19" r="5"/><circle class="y" cx="49" cy="19" r="5"/><circle class="g" cx="68" cy="19" r="5"/>
+  <text class="prompt" x="34" y="66">$</text>
+  <text class="line l1" x="64" y="66">building backend systems with secure boundaries</text>
+  <text class="line l2" x="64" y="66">designing distributed platforms for enterprise scale</text>
+  <text class="line l3" x="64" y="66">coding in Go, Python, Ruby, SQL</text>
+  <text class="line l4" x="64" y="66">shipping observable systems with measurable performance</text>
+  <text class="prompt cursor" x="940" y="66">█</text>
+</svg>
