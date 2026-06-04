@@ -19,7 +19,7 @@
   <text class="prompt" x="34" y="66">$</text>
   <text class="line l1" x="64" y="66">building backend systems with secure boundaries</text>
   <text class="line l2" x="64" y="66">designing distributed platforms for enterprise scale</text>
-  <text class="line l3" x="64" y="66">turning complex requirements into clean architecture</text>
+  <text class="line l3" x="64" y="66">coding in Go, Python, Ruby, SQL</text>
   <text class="line l4" x="64" y="66">shipping observable systems with measurable performance</text>
   <text class="prompt cursor" x="940" y="66">█</text>
 </svg>

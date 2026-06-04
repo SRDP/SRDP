@@ -39,7 +39,7 @@
     <text x="1030" y="62">SEC</text><text x="1030" y="108">API</text><text x="1030" y="154">TRACE</text><text x="1030" y="200">1010</text>
   </g>
   <g class="rain d2">
-    <text x="190" y="36">GO</text><text x="190" y="82">RUBY</text><text x="190" y="128">SQL</text><text x="190" y="174">OPS</text>
+    <text x="190" y="36">GO</text><text x="190" y="82">PY</text><text x="190" y="128">SQL</text><text x="190" y="174">OPS</text>
     <text x="875" y="42">CERT</text><text x="875" y="88">FIPS</text><text x="875" y="134">JSON</text><text x="875" y="180">CACHE</text>
   </g>
   <g class="rain d3">

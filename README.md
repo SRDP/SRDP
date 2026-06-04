@@ -26,7 +26,7 @@ backend and distributed systems for enterprise environments.
 ```txt
 focus       : backend systems · distributed platforms · security analytics
 strength    : architecture · technical leadership · product engineering
-stack       : Go · Ruby · Rails · SQL · Linux · APIs
+stack       : Go · Python · Ruby · Rails · SQL · Linux · APIs
 mindset     : secure design · clear boundaries · measurable performance
 ```
 

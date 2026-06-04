@@ -2,16 +2,17 @@
   <style>
     .bg { fill: #010302; stroke: #1db954; stroke-width: 2; }
     .chip { fill: #07130c; stroke: #39ff88; stroke-width: 1.5; }
-    .txt { font: 800 20px 'Courier New', monospace; fill: #b7ffd0; }
+    .txt { font: 800 19px 'Courier New', monospace; fill: #b7ffd0; }
     .chip { animation: pulse 3s ease-in-out infinite; }
     @keyframes pulse { 0%,100% { opacity: .75; } 50% { opacity: 1; } }
   </style>
   <rect class="bg" x="5" y="5" width="990" height="94" rx="18"/>
-  <rect class="chip" x="38" y="30" width="95" height="44" rx="12"/><text class="txt" x="85" y="59" text-anchor="middle">Go</text>
-  <rect class="chip" x="154" y="30" width="110" height="44" rx="12"/><text class="txt" x="209" y="59" text-anchor="middle">Ruby</text>
-  <rect class="chip" x="285" y="30" width="110" height="44" rx="12"/><text class="txt" x="340" y="59" text-anchor="middle">Rails</text>
-  <rect class="chip" x="416" y="30" width="92" height="44" rx="12"/><text class="txt" x="462" y="59" text-anchor="middle">SQL</text>
-  <rect class="chip" x="529" y="30" width="100" height="44" rx="12"/><text class="txt" x="579" y="59" text-anchor="middle">Linux</text>
-  <rect class="chip" x="650" y="30" width="92" height="44" rx="12"/><text class="txt" x="696" y="59" text-anchor="middle">APIs</text>
-  <rect class="chip" x="763" y="30" width="158" height="44" rx="12"/><text class="txt" x="842" y="59" text-anchor="middle">Security</text>
+  <rect class="chip" x="30" y="30" width="78" height="44" rx="12"/><text class="txt" x="69" y="59" text-anchor="middle">Go</text>
+  <rect class="chip" x="125" y="30" width="110" height="44" rx="12"/><text class="txt" x="180" y="59" text-anchor="middle">Python</text>
+  <rect class="chip" x="252" y="30" width="98" height="44" rx="12"/><text class="txt" x="301" y="59" text-anchor="middle">Ruby</text>
+  <rect class="chip" x="367" y="30" width="98" height="44" rx="12"/><text class="txt" x="416" y="59" text-anchor="middle">Rails</text>
+  <rect class="chip" x="482" y="30" width="82" height="44" rx="12"/><text class="txt" x="523" y="59" text-anchor="middle">SQL</text>
+  <rect class="chip" x="581" y="30" width="98" height="44" rx="12"/><text class="txt" x="630" y="59" text-anchor="middle">Linux</text>
+  <rect class="chip" x="696" y="30" width="82" height="44" rx="12"/><text class="txt" x="737" y="59" text-anchor="middle">APIs</text>
+  <rect class="chip" x="795" y="30" width="158" height="44" rx="12"/><text class="txt" x="874" y="59" text-anchor="middle">Security</text>
 </svg>
